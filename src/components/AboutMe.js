@@ -7,6 +7,7 @@ function AboutMe() {
     return (
         <div className={`${theme ? "bg-gray-900 text-gray-200" : "bg-gray-200 text-gray-900"} p-5 `}>
             <h1 className="text-3xl font-bold py-3">About Me</h1>
+            <h3 className="text-3xl font-bold py-3">This is about me Section.</h3>
             <SkillSection/>
             <ProjectSection/>
         </div>
