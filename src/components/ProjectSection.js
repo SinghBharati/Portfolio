@@ -11,14 +11,14 @@ const ProjectSection = () => {
             <div className="flex flex-wrap items-center">
                 {projects.map((project) => {
                     return <Card
-                        key={project.name}
-                        height={36}
-                        width={52}
-                        to={project.link}
-                        title={project.name}
-                        image={project.image}
-                        description={project.description}
-                    />
+                            key={project.name}
+                           width={52}
+                            height={32}
+                            to={project.link}
+                            title={project.name}
+                            image={project.image}
+                            description={project.description}
+                        />
                 })}
             </div>
 

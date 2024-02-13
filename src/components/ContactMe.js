@@ -10,7 +10,7 @@ function ContactMe() {
             <h1 className="text-3xl text-gray-200 font-bold py-3 px-5">How can you Reach me</h1>
             <div className="flex flex-wrap items-center">
                 {contact.map((contact) => {
-                    return <Card key={contact.name} height={36} width={52} title={contact.name} image={contact.image}/>
+                    return <Card key={contact.name} height={36} width={52} title={contact.name} image={contact.image} to={contact.link}/>
                 })}
             </div>
         </div>

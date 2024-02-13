@@ -2,11 +2,11 @@ import {Link} from "react-router-dom";
 
 const Card = ({image, title, description, height, width, to}) => {
     return (
-        <div className={`p-4 m-auto my-4 h-auto w-${width} bg-gray-200 text-gray-200 rounded`}>
+        <div className={`p-4 m-auto  my-4  h-auto w-${width} bg-gray-200 text-gray-200 rounded`}>
             <div className="bg-gray-900 rounded flex justify-center bg-cover">
                 <Link to={to}>
                     <img
-                        className={`p-2 h-${height} bg-cover`}
+                        className={`p-2 h-${height} w-${height} bg-cover`}
                         src={image} alt="Image"
                     />
                 </Link>

@@ -10,20 +10,26 @@ const contactSlice = createSlice({
     name:"contact",
     initialState:[
         {
-        name:"Gmail",
-        image:gmail
+            name:"Gmail",
+            image:gmail,
+            link:"https://gmail.com",
         },
         {
             name:"Github",
-            image:github
+            image:github,
+            link:"https://github.com/SinghBharati/",
         },
         {
             name:"Leetcode",
-            image:leetcode
+            image:leetcode,
+            link:"https://leetcode.com/sbharati244/",
+
         },
         {
             name:"LinkedIn",
-            image:linkedin
+            image:linkedin,
+            link:"https://www.linkedin.com/in/bharati-singh",
+
         },
     ],
     reducers:{}

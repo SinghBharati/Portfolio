@@ -26,25 +26,25 @@ const projectsSlice = createSlice({
                 +"Fetches the list of restaurants with the public API of Swiggy."
         },
         {
-            name:"Lecture Scheduler",
-            image:lecturescheduler,
-            link:"https://github.com/SinghBharati/Lecture_Scheduler",
-            techstack:"Laravel, MySQL Database",
-            description:"Laravel app, where admin have ability to add courses & multiple batches of that course along with the date of lectures & Instructor."
-        },
-        {
             name:"Portfolio",
             image:portfolio,
-            link:"https://github.com/SinghBharati/Netflix-GPT/tree/main",
+            link:"https://github.com/SinghBharati/Portfolio/tree/main",
             techstack:"Javascript, React.js, React Router, Redux-toolkit, Tailwind",
             description: "Portfolio built using JS, React.js, React Router, Redux Toolkit, and Tailwind CSS. It showcases my latest projects, skills in visually appealing manner."
         },
         {
             name:"Blog",
             image:blog,
-            link:"https://github.com/SinghBharati/Netflix-GPT/tree/main",
+            link:"https://github.com/SinghBharati/Blog",
             techstack:"Javascript, React.js, React Router, Redux-toolkit, Tailwind",
             description: "Blog is a React-based web application in which one can read or write blog.  It showcases my latest skills like Javascript, React.js, React Router, RTK, Tailwind."
+        },
+        {
+            name:"Lecture Scheduler",
+            image:lecturescheduler,
+            link:"https://github.com/SinghBharati/Lecture_Scheduler",
+            techstack:"Laravel, MySQL Database",
+            description:"Laravel app, where admin have ability to add courses & multiple batches of that course along with the date of lectures & Instructor."
         },
 
     ],
