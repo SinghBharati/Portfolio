@@ -4,7 +4,7 @@ import {setTheme} from "../utils/themeSlice";
 import {useState} from "react";
 const Header = () => {
     const dispatch = useDispatch();
-    const theme = useSelector((store) => store.theme);
+    const theme = useSelector((store) => store.theme.isDarkTheme);
     const [isDarkMode, setIsDarkMode] = useState(theme);
 
     const changeTheme = (value) => {

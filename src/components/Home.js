@@ -1,12 +1,8 @@
 import {Link} from "react-router-dom";
 import {useSelector} from "react-redux";
-import {useEffect} from "react";
 
 function Home() {
-    const theme = useSelector((store) => store.theme.
-        isDarkTheme
-    );
-    console.log(theme)
+    const theme = useSelector((store) => store.theme.isDarkTheme);
 
     return (
         <div className={theme ? "p-5 bg-gray-900 text-gray-200" : "p-5 bg-gray-200 text-gray-900"}>
@@ -18,7 +14,7 @@ function Home() {
                 complex UI Challenges and provide value to the growth of an organization.</p>
             <br/>
             <button
-                className="text-xl p-3 my-4 rounded bg-gray-200 text-gray-900 font-bold"
+                className={`${theme ? "bg-gray-200 text-gray-900" : "bg-gray-900 text-gray-200"} text-xl p-3 my-4 rounded  font-bold`}
             ><Link to="/about">View My Wor</Link>k</button>
         </div>
     );
