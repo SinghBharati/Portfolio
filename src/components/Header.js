@@ -13,7 +13,7 @@ const Header = () => {
     }
 
     return (
-        <div className={isDarkMode ? "bg-gray-900 text-gray-200" : "bg-gray-200 text-gray-900"}>
+        <div className={`${isDarkMode ? "bg-gray-900 text-gray-200" : "bg-gray-200 text-gray-900"} fixed w-full z-10`}>
             <ul className="p-4 flex justify-end">
                 <li className={"p-3 rounded-2xl hover:text-gray-500 hover:cursor-pointer"}><Link to="/">Home</Link></li>
                 <li className="p-3 rounded-2xl hover:text-gray-500 hover:cursor-pointer"><Link to="/about">About</Link></li>

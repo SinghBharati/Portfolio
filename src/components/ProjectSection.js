@@ -7,7 +7,7 @@ const ProjectSection = () => {
 
     return (
         <div>
-            <h1 className="text-2xl font-bold py-3 px-5">Projects</h1>
+            <h1 className="text-2xl font-bold py-3">Some of my Projects</h1>
             <div className="flex flex-wrap items-center">
                 {projects.map((project) => {
                     return <Card
